@@ -314,7 +314,7 @@ def project_list(file):
 if __name__ == "__main__":
 	import os 
 	cur_dir = os.path.dirname(os.path.realpath(__file__))
-	project_list(cur_dir + '\\test.xls')
+	project_list(cur_dir + os.path.sep +'test.xls')
 
 
 
